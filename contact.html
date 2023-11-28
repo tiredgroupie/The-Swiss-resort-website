@@ -40,8 +40,8 @@
 	<section id="form">
 		
 		<form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
-			
-
+			<div id="grid-form">
+					<div>
             <label for="my-name">Name<span class="required">*</span></label>
 			<input type="text" name="my-name" id="my-name" required>
 			<label for="my-phone">Phone<span class="required">*</span></label>
@@ -50,7 +50,8 @@
 			<input type="email" name="my-email" id="my-email" required>
 			<label for="my-comments">Comments</label>
 			<textarea name="my-comments" id="my-comments"></textarea>
-			
+					</div>
+					<div>
             <section>
                 <fieldset>
                     <legend>Preferred Method of Contact<span class="required">*</span></legend>
@@ -60,7 +61,9 @@
                     <label for="pref-phone">Phone</label>
                 </fieldset>
 			</section>
+					</div>
 			<input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+			</div>
 		</form>
 	</section>
             </main>
